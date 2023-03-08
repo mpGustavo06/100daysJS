@@ -12,12 +12,12 @@ let heightValue = document.getElementById("height-value");
 let events = {
      mouse: {
         down: "mousedown",
-        mobe: "mousemove",
+        move: "mousemove",
         up: "mouseup"
      },
      touch: {
         down: "touchstart",
-        move: "touchmove",
+        mobe: "touchmove",
         up: "touchend",
      },
 };
@@ -63,7 +63,7 @@ gridButton.addEventListener("click", ()=>{
             });
 
             col.addEventListener(events[deviceType].move, (e)=>{
-                let elementId = document.elementsFromPoint(
+                let elementId = document.elementFromPoint(
                      !isTouchDevice() ? e.clientX : e.touches[0].clientX,
                      !isTouchDevice() ? e.clientY : e.touches[0].clientY,
                 ).id;
