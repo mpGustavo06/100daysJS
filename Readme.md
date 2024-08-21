@@ -1,5 +1,5 @@
 # 100 days javascript coding
 
-Essa será uma coleção de pequenos códigos feitos com javascript que estou acompanhando e codando junto com o/a youtuber [AsmrProg](https://www.youtube.com/@AsmrProg), ou seja é para aprendizado pessoal.
+This is a collection of small codes (games and tools) made with javascript for my personal learning.
 
 * 6 / 100 Days
