@@ -6,6 +6,10 @@ This is a collection of small codes (games and tools) made in javascript, which 
 
 ##
 
+Additionally, the "Extras" page was created, where I will leave some personal projects in JavaScript.
+
+##
+
 ### Screenshot of the main page
 
 ![screenshot](img/main-page.png)
