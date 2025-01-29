@@ -79,3 +79,39 @@ body {
     transition: transform 0.3s ease-in-out 0.1s;
     transform: translate(0);
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; /* Espaçamento entre os links */
+}
+
+.pagination a {
+    color: #333;
+    padding: 8px 12px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.pagination a.active {
+    color: #007bff;
+    border-color: #007bff;
+    font-weight: bold;
+}
+
+.pagination a:hover:not(.active) {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.pagination .prev-next {
+    color: #666;
+    border: none;
+}
+
+.pagination .prev-next:hover {
+    color: #007bff;
+}
